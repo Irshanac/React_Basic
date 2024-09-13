@@ -6,6 +6,7 @@ import Prop from "./components/Prop";
 import Contion from "./components/Contion";
 import ColorChange from "./components/ColorChange";
 import DivColor from "./components/DivColor";
+import Text from "./components/Text"
 
 function App() {
   return (

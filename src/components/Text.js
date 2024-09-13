@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 const Text=()=>{
     const [txets,setText]=useState("")
-    const textChnage=()=>{
-        setText(e.textarea.value)
+    const textChnage=(e)=>{
+        setText(e.target.value)
     }
     return(
         <div>
