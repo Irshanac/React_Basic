@@ -3,10 +3,11 @@ import Footer from "./components/Footer";
 //import Class from "./components/Class"
 import "./App.css";
 import Prop from "./components/Prop";
-import Contion from "./components/Contion";
-import ColorChange from "./components/ColorChange";
-import DivColor from "./components/DivColor";
-import Text from "./components/Text"
+import KeyList from "./components/KeyList";
+// import Contion from "./components/Contion";
+// import ColorChange from "./components/ColorChange";
+// import DivColor from "./components/DivColor";
+// import Text from "./components/Text"
 
 function App() {
   return (
@@ -22,10 +23,11 @@ function App() {
           <button>in side div</button>
         </div>
       </Prop>
-      <Contion/>
+      <KeyList/>
+      {/* <Contion/>
       <ColorChange/>
       <DivColor></DivColor> 
-      <Text/>
+      <Text/> */}
       <Footer name="irshana" />
     </div>
   );
