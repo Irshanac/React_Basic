@@ -8,11 +8,12 @@ const ColorChange=()=>{
         backgroundColor:bgColor,
         padding:"10px",
         margin:"20px",
+        height:"150px"
        
     }
     return(
-        <div style={bg}>
-            <button onClick={clrChnage}>change bg colour</button>
+        <div style={bg} onClick={clrChnage}>
+            
         </div>
     )
 }

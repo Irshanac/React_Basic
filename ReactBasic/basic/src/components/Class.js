@@ -1,9 +1,19 @@
+// import React from 'react'
+// class B extends React.Component{
+//     render(){
+//         return(
+//             <h1>hai</h1>
+//         )
+//     }
+// }
+// export default B
 import React from 'react'
-class B extends React.Component{
+class b extends React.Component{
     render(){
         return(
-            <h1>hai</h1>
+            <div>
+                <hi>hi</hi>
+            </div>
         )
     }
 }
-export default B
