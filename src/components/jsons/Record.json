@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"irshana",
+        "house_name":"chappangathil",
+        "qualification":[{
+            "degree":2024
+        },{"diploma":2021}]
+    },
+    {
+        "id":2,
+        "name":"safeer",
+        "house_name":"cholakall",
+        "qualification":[{
+            "degree":2024
+        }]
+    },
+    {
+        "id":3,
+        "name":"ismayil",
+        "house_name":"chappangathil",
+        "qualification":[{
+            "degree":2024
+        }]
+    }
+]
