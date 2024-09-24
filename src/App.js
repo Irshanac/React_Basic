@@ -1,12 +1,12 @@
 import React from "react";
-//import Parent from "./components/mem0/Parent";
-import First from "./callback/First";
+import Storage from "./components/local/Storage";
+//import Counter from "./components/usememo/Counter";
 
 function App() {
   return (
     <div >
-      {/* <Parent/> */}
-      <First/>
+      {/* <Counter/> */}
+      <Storage/>
      </div>
   );
 }
