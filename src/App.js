@@ -1,13 +1,17 @@
 import React from 'react';
-import {  Route, Routes } from 'react-router-dom';
-import Home from './components/router/Home'; // Make sure the path to Home.js is correct
-import About from './components/router/About';
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/activity2/Home';
+import Login from './components/activity2/Login';
+import Reg from './components/activity2/Reg';
+
+
 function App() {
   return (
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About/>}/>
-      </Routes>
+     <Routes>
+      <Route path='/' element={<Reg/>}></Route>
+      <Route path='/login' element={<Login/>}></Route>
+      <Route path='/home' element={<Home/>}></Route>
+     </Routes>
   
   );
 }
